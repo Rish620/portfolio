@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  animation-name: stylle;
+  animation-duration: 2s;
+
+}
+
+@keyframes stylle {
+  from {
+    font-size: small;
+  }
+
+  to {
+    font-size: larger;
+  }
+
+}
+
+
+/* #nav{
+  background-color: white;
+  height: 50px;
+  width:1600px ;
+  color: #e2a007c7; 
+
+  
+ }*/
+#nav {
+  width: 1600px;
+  background-color:  rgb(72, 82, 92);
+}
+
+#nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  font-size: 1.4em;
+  margin: 12px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#logo {
+  font-size: 2em;
+}
+
+main {
+  height: 800px;
+  width: 1600px;
+  font-size: 2em;
+  color: chocolate;
+  background-color: rgb(72, 82, 92);
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+footer {
+  background-color: rgb(72, 82, 92);
+  color: aliceblue;
+  height: 500px;
+  width: 1600px;
+}
+
+#foot {
+  text-align: center;
+}
+
+
+
+#Contact {
+  height: 200px;
+  width: 200px;
+  margin-left: 402px;
+  color: black
+}
+
+#con {
+  height: 200px;
+  width: 200px;
+  margin-left: 1002px;
+  margin-top: -207px;
+  color: black
+}
+
+#about:hover {
+  height: 200px;
+  width: 200px;
+  transition: all;
+  transition-duration: 5s;
+}
+
+#Contact:hover {
+  font-size: 20px;
+  transition: all;
+  transition-duration: 1s;
+  color: aliceblue;
+}
+
+#con:hover {
+  font-size: 20px;
+  transition: all;
+  transition-duration: 1s;
+  color: aliceblue;
+
+}
+
+a:hover {
+  color: orangered;
+  transition: all;
+  transition-duration: 1s;
+  font-size: 20px;
+}
+
+.center {
+  width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center p {
+  position: relative;
+  top: 100vh;
+  color: black;
+  font-size: 0.8em;
+}
+
+p:hover {
+  color: blue;
+  transition: all, 2s, ease-in;
+}
+
+#main2_pic {
+  height: 300px;
+  width: 700px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, rgba(70, 65, 65, 0.192), gray);
+  color: black;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  filter: drop-shadow(10px 10px 10px rgb(8, 7, 101));
+
+}
+
+#rishu {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  background-image: url("rishu_4.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 10px rgb(11, 32, 136));
+  border-radius: 30%;
+
+}
+
+#skills {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 110px;
+  width: 1600px;
+  background-color:  rgb(72, 82, 92);
+  position: absolute;
+  bottom: 50px;
+}
+
+#pic1 {
+  height: 60px;
+  width: 60px;
+  background-image: url("icons8-html-logo-64.png");
+  background-size: cover;
+  position: absolute;
+  right: 280px;
+}
+
+#pic2 {
+  height: 60px;
+  width: 60px;
+  background-image: url("icons8-javascript-logo-64.png");
+  background-size: cover;
+  position: absolute;
+  right: 480px;
+}
+
+#pic3 {
+  height: 60px;
+  width: 60px;
+  background-image: url("icons8-css-logo-100.png");
+  background-size: cover;
+  position: absolute;
+  right: 780px;
+}
+
+#pic4 {
+  height: 60px;
+  width: 60px;
+  background-image: url("icons8-java-48.png");
+  background-size: cover;
+  position: absolute;
+  left: 580px;
+}
+
+#pic5 {
+  height: 60px;
+  width: 60px;
+  background-image: url("icons8-react-js-64.png");
+  background-size: cover;
+  position: absolute;
+  left: 380px;
+}
+
+#social {
+  width: 50px;
+  height: 300px;
+  background-color:  rgb(72, 82, 92);
+  position: absolute;
+  top: 160px;
+  right: 30px;
+  
+}
+
+#logo1 {
+  height: 50px;
+  width: 50px;
+  background-image: url("icons8-instagram-50.png");
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+}
+
+#logo2 {
+  height: 50px;
+  width: 50px;
+  background-image: url("icons8-facebook-50.png");
+  background-size: cover;
+  position: absolute;
+  top: 100px;
+}
+
+#logo3 {
+  height: 50px;
+  width: 50px;
+  background-image: url("icons8-linkedin-50.png");
+  background-size: cover;
+  position: absolute;
+  top: 200px;
+}
+
+#logo4 {
+  height: 50px;
+  width: 50px;
+  background-image: url("icons8-twitter-50.png");
+  background-size: cover;
+  position: absolute;
+  top: 300px;
+}
+
+#foot h1 {
+  color: black;
+}
+#intro{
+  font-size: medium;
+}
