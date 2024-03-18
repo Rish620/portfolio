@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  animation-name: stylle;
+  animation-duration: 2s;
+  
+}
+@keyframes stylle {
+  from{
+    font-size: small;
+  }to{
+    font-size: larger;
+  }
+  
+}
+
+h1{
+  text-align: center;
+  color: chocolate;
+}
+h1:hover{
+  color: rgb(9, 9, 9);
+}
+#nav{
+  height: 60px;
+  width: 1600px ;
+  background-color: rgb(16, 10, 9);
+  font-size: 20px;
+  
+}
+a{
+  margin-inline-start: 200px;
+}
+a:hover{
+  color: orangered;  
+  transition: all;
+  transition-duration: 1s; 
+  font-size: 20px;
+}
+ 
+#main{
+  height: 800px;
+   width: 1600px;
+   background-color: #000;
+  
+}
+#text{
+  height: 400px;
+  width: 300px;
+  border-radius: 20%;
+  position: absolute;
+  top: 150px;
+  right: 120px;
+  background-image: url("rishu_3.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 10px rgb(8, 7, 101));
+}
+#quoet{
+height: 500px;
+width: 500px;
+position: absolute;
+top: 150px;
+left: 150px; 
+filter: drop-shadow(10px 10px 10px rgb(8, 7, 101));  
+background-color: #000;
+  color: #fff;
+  opacity: .5; 
+  font-size: 2em;    
+}
+#quoet:hover{
+  color: rgb(176, 220, 42);
+}

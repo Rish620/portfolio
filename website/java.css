@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#nav{
+  height: 80px;
+  width: 1530px;
+  background-color: rgb(33, 25, 25);
+  padding-left: 10px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 2em;
+}
+#sidnav{
+  height: 1100px;
+  width: 300px;
+  background-color: rgb(19, 51, 51);
+  justify-content: center;
+}
+#intro{
+  height: 500px;
+width: 1000px;
+position: absolute;
+top: 150px;
+left: 250px; 
+filter: drop-shadow(10px 10px 10px rgb(5, 4, 75));  
+background-color: #000;
+  color: #fff;
+  opacity: .5; 
+  font-size: 2em; 
+  text-align: center;
+}
+#logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: beige;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  background-image: url("images.jpeg");
+  background-size: contain;
+  filter: drop-shadow(10px 10px 10px rgb(108, 107, 26));
+}
+li{
+  color: #fff;
+  
+}
