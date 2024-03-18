@@ -235,7 +235,7 @@ p:hover {
   background-color:  rgb(72, 82, 92);
   position: absolute;
   top: 160px;
-  right: 30px;
+  left: 30px;
   
 }
 
@@ -280,4 +280,52 @@ p:hover {
 }
 #intro{
   font-size: medium;
+}
+/* CSS for small screens */
+@media screen and (max-width: 768px) {
+  #nav {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    text-align: center;
+  }
+
+  #main2_pic {
+    position: static;
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+
+  #rishu {
+    position: static;
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+
+  .center {
+    width: 100%;
+  }
+
+  #skills {
+    width: 100%;
+    text-align: center;
+  }
+
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5 {
+    right: auto;
+    left: 50%; /* Adjust as needed */
+    transform: translateX(-50%);
+  }
+
+  #social {
+    position: static;
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
 }
